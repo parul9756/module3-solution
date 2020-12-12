@@ -1,0 +1,132 @@
+.heading
+   {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	text-align: center;
+	text-decoration-color: black;
+	text-decoration: bold;
+    }
+#box1
+    {
+	 box-sizing: border-box;
+	 margin: 8px;
+	 height: 150px;
+         border: 2px  solid black;
+	 background-color: gray;
+     }
+#box2
+     {
+          box-sizing: border-box;
+          margin: 8px;
+	  height: 150px;
+	  border: 2px  solid black;
+	  background-color: gray;		
+      }
+#box3
+      {
+           box-sizing: border-box;
+	   margin: 8px;
+	   height: 150px;
+	   border: 2px  solid black;
+	   background-color: gray;		
+       }
+.main
+{
+	background-color: gray;
+} 
+@media (min-width: 992px) 
+    {
+     #box1
+     {
+     	float: left;
+     	width: 30%;
+     }
+     #box2
+     {
+     	float: left;
+     	width: 30%;
+     }
+     #box3
+     {
+     	float: left;
+     	width: 30%;
+     }
+    }
+@media (min-width: 768px) and (max-width:991px )
+    {
+	#box1
+	{
+	    float:left;
+	    width:47%;
+	}	
+	#box2
+	{
+		float:left;
+		width:47%;
+	}
+	#box3
+	{
+		float: left;
+		width:98%;
+	}	
+    }
+@media (max-width: 767px)
+    {
+	#box1
+	{
+		width: 98%;
+	}	
+	#box2
+	{
+		width:98%;
+	}
+	#box3
+	{
+		width: 98%;
+	}
+
+    }
+#box1 #subheading1
+	{
+        margin: 0;
+        box-sizing: border-box;
+	border: 2px solid black;
+        background-color: pink;
+        width: 40%;
+        height:auto;
+	text-align: center;
+	margin-top:auto;
+	float: right;
+	clear:left;
+	}
+#box2 #subheading2
+	{
+        margin: 0;
+	box-sizing: border-box;
+	border: 2px solid black;
+        background-color: red;
+        width: 40%;
+        height:auto;
+	text-align: center;
+	margin-top:auto;
+        float: right;
+	clear:left;
+	}
+#box3 #subheading3
+	{
+        margin: 0;
+	box-sizing: border-box;
+	border: 2px solid black;
+        background-color: brown;
+        width: 40%;
+        height:auto;
+	text-align: center;
+	margin-top:auto;
+        float: right;
+	clear:left;
+	}	
+#text
+       {
+     margin-top: 30px;
+     padding: 10px;
+       }
